@@ -1,0 +1,29 @@
+body{
+    height:100vh;
+    background-image:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("https://w0.peakpx.com/wallpaper/421/959/HD-wallpaper-train-railway-station-track.jpg");
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    
+}
+h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+h2{
+    font-size: 2rem;
+}
+button{
+    background-color: plum;
+    width:10rem;
+    padding:0.5rem;
+    margin-top: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 2rem;
+    font-weight: bolder;
+}
