@@ -1,0 +1,39 @@
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  border-radius: 1rem;
+  margin-top: 10rem;
+  background-color: blanchedalmond;
+  box-shadow: 3px 3px 3px 3px black;
+}
+label {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-left: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#temp {
+  margin-left: 11rem;
+  margin-top: 0.9rem;
+  width: 5rem;
+}
+#cel_tem {
+  width: 6rem;
+  margin-left: 4rem;
+}
+#btn {
+  margin-top: 2rem;
+  margin-left: 15rem;
+}
+h2 {
+  text-align: center;
+}
