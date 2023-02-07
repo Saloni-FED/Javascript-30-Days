@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+.heading {
+  height: 8rem;
+  width: 100%;
+}
+.heading h1 {
+  background-color: burlywood;
+  line-height: 4rem;
+  font-weight: 400;
+}
+.icons {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.notes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, 300px);
+}
+.note_1 {
+  margin-top: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: beige;
+  border-radius: 0.2rem;
+  box-shadow: 2px 2px black;
+}
+.operations {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.edit {
+  margin-right: 1rem;
+}
+input {
+  border: none;
+  margin-top: 0.4rem;
+  width: 100%;
+  resize: none;
+  max-height: 10rem;
+}
+.main {
+  margin-top: 1rem;
+  width: 100%;
+  height: 2rem;
+  background-color: white;
+  display: none;
+}
