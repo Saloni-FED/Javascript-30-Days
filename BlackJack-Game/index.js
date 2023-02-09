@@ -1,3 +1,4 @@
+let player = {name:"Per$:",Chips:123}
 let cards = [];
 let sum = 0;
 let message = "";
@@ -6,6 +7,8 @@ let hasBlackJack = false;
 let messEl = document.querySelector(".mess-el");
 let sumEl = document.querySelector("#sum-El");
 let cardsEl = document.querySelector("#cards-El");
+let paraEl= document.querySelector("#para-el")
+paraEl.textContent = player.name + player.Chips;
 function startGame() {
   isAlive = true;
   let firstNumber = randomCards();
@@ -33,16 +36,17 @@ function renderGame() {
   }
   sumEl.textContent = "Sum:" + sum;
   if (sum <= 20) {
-    message = "Do you want to draw a message";
+    message = "Do you want to draw a message?";
   } else if (sum === 21) {
-    message = "You have a black jack";
+    message = "You have a black jack,Congrats!";
     hasBlackJack = true;
   } else {
-    message = "OHH no your are out";
+    message = "OHH no your are out!";
     isAlive = false;
   }
   messEl.textContent = message;
 }
+//To add single card
 function newCard() {
   if (isAlive === true && hasBlackJack === false) {
     console.log(isAlive);
