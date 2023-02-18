@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    background-color:black;
+    border: 5px solid white;
+    border-radius: 7px;
+    display:grid;
+    grid-template-columns: repeat(20,auto);
+}
+.box{
+    width:1.5rem;
+    height:1.5rem;
+    outline:none;
+    background-color: black;
+    border:1px solid white;
+    transition:0.5s;
+}
